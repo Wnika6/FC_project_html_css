@@ -13,17 +13,21 @@ body {
 }
 
 .navbar {
+	background-color: #4e4e4e;
+}
+
+.center-container-navbar {
+	width: 960px;
+	height: 50px;
+	margin: auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 50px;
-	background-color: #4e4e4e;
 }
 
 .company-name,
 .nav-links {
-	padding: 96px;
-	font-weight: 700;
+	font-weight: bold;
 	font-size: 18px;
 }
 
@@ -35,7 +39,7 @@ body {
 .nav-link {
 	color: #ffffff;
 	text-decoration: none;
-	font-weight: 400;
+	font-weight: normal;
 }
 
 .disabled-link {
@@ -60,6 +64,11 @@ body {
 	z-index: -1;
 }
 
+.center-container-header {
+	width: 960px;
+	margin: auto;
+}
+
 .header-text {
 	display: flex;
 	flex-direction: column;
@@ -67,14 +76,13 @@ body {
 	align-items: flex-start;
 	gap: 48px;
 	height: 100vh;
-	padding: 96px;
 	font-size: 18px;
-	font-weight: 700;
+	font-weight: bold;
 }
 
 .header-title {
 	font-size: 36px;
-	font-weight: 700;
+	font-weight: bold;
 }
 
 .header-btn {
@@ -100,17 +108,17 @@ body {
 }
 
 .section-title {
-	padding: 50px 96px;
+	padding: 50px 0;
 	color: #152d41;
 	font-size: 36px;
-	font-weight: 700;
+	font-weight: bold;
 }
 
 .section-employees {
 	display: flex;
 	flex-direction: column;
-	padding: 0 96px 50px 96px;
 	gap: 20px;
+	padding-bottom: 50px;
 }
 
 .employee-box {
@@ -188,7 +196,6 @@ body {
 
 .service-name {
 	font-size: 24px;
-	font-weight: 400;
 }
 
 .service-box-one {
@@ -208,14 +215,19 @@ body {
 /* footer */
 
 .footer {
+	background-color: #4e4e4e;
+}
+
+.center-container-footer {
+	width: 960px;
+	height: 70px;
+	margin: auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 70px;
-	padding: 0 96px;
 	background-color: #4e4e4e;
 	font-size: 18px;
-	font-weight: 700;
+	font-weight: bold;
 }
 
 .fa-brands {
